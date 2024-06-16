@@ -1,0 +1,107 @@
+.body {
+  background-color: #2148c0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+}
+.login {
+  z-index: 12300;
+}
+
+.login-btn {
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 20px;
+  text-align: center;
+  color: #2148c0;
+  background-color: white;
+  border-radius: 5px;
+}
+.svg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* Styling for the SVG */
+.svg-container svg1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.svg-container-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Styling for the SVG */
+.svg-container-2 svg2 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.label-login {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 50px;
+  border-radius: 5px;
+  width: 350px;
+  color: white;
+  z-index: 200;
+}
+.label-login svg {
+  position: absolute;
+  height: 33px;
+  width: 33px;
+  padding: 9px;
+}
+.label-login input {
+  background-color: transparent;
+  margin-left: 50px;
+  height: 50px;
+  border-radius: 5px;
+  width: 300px;
+  color: white;
+  outline: none;
+  border: 0px solid;
+}
+.login-input input::placeholder {
+  margin: 5px;
+}
+.forgot-password-login {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: end;
+  margin-top: 10px;
+}
